@@ -1,8 +1,8 @@
 class EnvironmentSwitcher < Formula
   desc "CLI tool to switch between different environment configurations"
   homepage "https://github.com/untitledpng/environment-switcher"
-  url "https://github.com/untitledpng/environment-switcher/archive/v1.0.0.tar.gz"
-  sha256 "74bb1c33d35b00ed79df1bc63a3ceb15661418ea5a97fb64c78a31ae426eb45c"
+  url "https://github.com/untitledpng/environment-switcher/archive/v1.0.1.tar.gz"
+  sha256 "ca527bd88cc24c8c111364950029506df06937fc8ca1f183055fb6c17cb05634"
   license "MIT"
 
   depends_on :macos
