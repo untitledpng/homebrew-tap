@@ -1,13 +1,13 @@
 class EnvironmentSwitcher < Formula
   desc "CLI tool to switch between different environment configurations"
   homepage "https://github.com/untitledpng/environment-switcher"
-  version "1.5.0"
+  version "2.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/untitledpng/environment-switcher/releases/download/v1.5.0/switch-arm64-apple-macos.tar.gz"
-      sha256 "811b566a41cf1e602769c9e72125fdd5c392c4532f246d8a11f9f670bc6a017a"
+      url "https://github.com/untitledpng/environment-switcher/releases/download/v2.0.0/switch-arm64-apple-macos.tar.gz"
+      sha256 "1deb4731adeef6ca122ef0882ae73c5def052b829577c69a4f5e76aff960640d"
     else
       odie "This formula only supports Apple Silicon Macs"
     end
