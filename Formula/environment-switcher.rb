@@ -7,7 +7,7 @@ class EnvironmentSwitcher < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/untitledpng/environment-switcher/releases/download/v2.2.0/switch-arm64-apple-macos.tar.gz"
-      sha256 "1deb4731adeef6ca122ef0882ae73c5def052b829577c69a4f5e76aff960640d"
+      sha256 "bf7b99010e060ff9fe06a94ab732d8f87c083c02bc4c2158dfd11aef6e5a4639"
     else
       odie "This formula only supports Apple Silicon Macs"
     end
